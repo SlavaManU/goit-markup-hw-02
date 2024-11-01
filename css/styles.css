@@ -58,8 +58,6 @@ a {
 }
 
 .hero-page {
-  width: 1440px;
-  height: 600px;
   background-color: #2e2f42;
 }
 
@@ -84,7 +82,7 @@ a {
 
 .hero-page-buttom:hover,
 .hero-page-buttom:focus {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 
 .features {
@@ -96,8 +94,25 @@ a {
 }
 
 .features-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+.team {
+  background-color: #f4f4fd;
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  text-transform: capitalize;
+}
+
+.team-item {
+  background-color: #ffffff;
+}
+
