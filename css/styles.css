@@ -57,7 +57,8 @@ a {
   color: #404bbf;
 }
 
-.hero-page {
+.hero-page,
+.page-logo {
   background-color: #2e2f42;
 }
 
@@ -85,19 +86,32 @@ a {
   background-color: #404bbf;
 }
 
-.features {
+.features,
+.team-names,
+.portfolio-names {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+.team-names {
+  text-align: center;
+}
 
-.features-text {
+.features-text,
+.team-job-title,
+.portfolio-names-title,
+.footer-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
+.team-job-title {
+  text-align: center;
+}
+
 .team {
   background-color: #f4f4fd;
 }
@@ -116,3 +130,6 @@ a {
   background-color: #ffffff;
 }
 
+.footer-text {
+  color: #f4f4fd;
+}
